@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://1wdcg.github.io'
+baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -21,10 +21,10 @@ toc:
   h_min:   1
   h_max:   3
 
-# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+# customize the link favicon in header
 favicon_path:     /assets/gitbook/images/favicon.ico
 
-# markdown render engine.
+# markdown render engine
 markdown:         kramdown
 kramdown:
   auto_ids:               true
@@ -42,9 +42,6 @@ markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
 permalink:                /:categories/:year-:month-:day-:title:output_ext
-
-# Disqus comments
-# disqushandler:            sighingnow
 
 exclude:
   - _drafts
@@ -72,3 +69,11 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+categories:
+  - 개발
+  - CTF/Wargame
+  - Bug Bounty
+  - 블로그/기술문서
+  - 논문/컨퍼런스
+  - 공모전/자격증
